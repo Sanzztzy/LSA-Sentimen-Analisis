@@ -12,8 +12,9 @@ from sklearn.metrics import accuracy_score, classification_report
 twitter_data = []
 
 # Mengambil Data dari Twitter Menggunakan Scraper API:
+# ambil API KEY yang bisa didapatkan pada web Scraper API lalu masukan ke bagian 'XXXXXXXX' sesuai dengan API key ANDA
 payload = {
-    'api_key': '54d2215e72eccfbc84aa3a9c456e2559',
+    'api_key': 'XXXXXXXXXXXXXXXXXXXXXX',
     'query': 'tiktok shop indonesia',
     'num': '100',
     'since': '2023-10-04',
